@@ -1,3 +1,4 @@
+// @refresh reset
 import { useState } from "react";
 
 const hossein = {
@@ -10,7 +11,7 @@ const ryan = {
   name: "Ryan",
   age: 3,
   gender: "male",
-  job: "what? I've just 3 years old :/",
+  job: "what? I've just three years old :/",
 };
 console.log(hossein);
 console.log(ryan);
@@ -18,8 +19,8 @@ console.log(ryan);
 const Persons = () => {
   const [info, setInfo] = useState({});
   return (
-    <div>
-      <h3>Informations</h3>
+    <>
+      <h3>users bla bla bla Informations</h3>
       <button onClick={() => setInfo(hossein)}>Hossein's Info</button>
       <button onClick={() => setInfo(ryan)}>Ryan's Info</button>
       <ul>
@@ -29,7 +30,7 @@ const Persons = () => {
               </li>
           ))}
       </ul>
-    </div>
+    </>
   );
 };
 

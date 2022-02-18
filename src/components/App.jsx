@@ -5,11 +5,12 @@ import webPackImage from "../images/wbpack.png";
 const App = () => {
   return (
     <>
-      <section className="hero"></section>
+      <section className="hero">
+          <h1>hi react</h1>
+      </section>
 
       <main>
         <section>
-          <h1>hi react</h1>
         </section>
         <img src={webPackImage} width="150" alt="webpack-log" />
         <Persons />

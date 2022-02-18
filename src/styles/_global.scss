@@ -12,6 +12,12 @@ body {
      align-items: center;
      padding-bottom: 128px;
 }
+main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
 
 button {
     font-size: var(--btn-font-size);
@@ -21,4 +27,8 @@ ul {
     li {
        margin-bottom: 16px; 
     }
+}
+
+#root {
+    width: 100%;
 }
