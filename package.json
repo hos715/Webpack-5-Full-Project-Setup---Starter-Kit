@@ -9,7 +9,8 @@
     "start": "cross-env webpack serve",
     "watch": "webpack --watch",
     "build": "cross-env NODE_ENV=production webpack",
-    "build-dev": "webpack"
+    "build-dev": "webpack",
+    "clean": "rm -rf dist"
   },
   "dependencies": {
     "react": "^17.0.2",

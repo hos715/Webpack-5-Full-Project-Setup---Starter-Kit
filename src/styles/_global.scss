@@ -16,3 +16,9 @@ body {
 button {
     font-size: var(--btn-font-size);
 }
+ul {
+    list-style-image: url('../images/wbpack-32.jpg');
+    li {
+       margin-bottom: 16px; 
+    }
+}
