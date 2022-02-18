@@ -1,0 +1,17 @@
+@use "variables";
+body {
+    margin: 0;
+    background-color: variables.$bg;
+    font-size: var(--hero-font-size);
+    font-family: sans-serif;
+}
+
+body {
+    display: flex;
+     flex-direction: column;
+     align-items: center;
+}
+
+button {
+    font-size: var(--btn-font-size);
+}

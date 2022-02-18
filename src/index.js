@@ -1,3 +1,4 @@
+import "./styles/index.scss";
 const hossein = {
   name: "Hossein",
   age: 29,
