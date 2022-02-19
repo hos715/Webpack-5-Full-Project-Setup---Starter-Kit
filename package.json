@@ -3,14 +3,14 @@
   "version": "1.0.0",
   "main": "index.js",
   "repository": "https://github.com/hos715/Webpack-5-Full-Project-Setup---Starter-Kit.git",
-  "author": "<hkh659@gmail.com>",
+  "author": "Hossein Khalili",
+  "url": "https://www.linkedin.com/in/hossein-khalili-6534ab190/",
   "license": "MIT",
   "scripts": {
     "start": "cross-env SERVE=true webpack serve",
     "watch": "webpack --watch",
     "build": "cross-env NODE_ENV=production webpack",
-    "build-dev": "webpack",
-    "clean": "del -rd dist"
+    "build-dev": "webpack"
   },
   "dependencies": {
     "react": "^17.0.2",
